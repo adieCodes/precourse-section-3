@@ -9,6 +9,10 @@ body {
   background-size: cover;
 }
 
+.nav {
+  margin: 0;
+}
+
 .nav__item {
   display: inline;
 }
