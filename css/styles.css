@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  font-family: 'Bungee', cursive;
 }
 
 .header__hero {
@@ -10,6 +11,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.header__hero h2,
+.nav {
+  font-family: 'Bungee Hairline', cursive;
 }
 
 .nav {
