@@ -1,18 +1,31 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-.container--home {
-  height: 100vh;
-  background: url("../img/code.jpg");
-  background-size: cover;
+.header__hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav {
   margin: 0;
+  text-align: left;
+  justify-content: flex-start;
 }
 
 .nav__item {
   display: inline;
+}
+
+.projects__container {
+  display: flex;
+}
+
+.projects__project {
+  width: 50%;
 }
