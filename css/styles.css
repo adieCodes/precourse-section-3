@@ -11,6 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #D93A28;
+  color: #F4F0F1;
 }
 
 .header__hero h2,
@@ -22,6 +24,8 @@ body {
   margin: 0;
   text-align: left;
   justify-content: flex-start;
+  background-color: #F4F0F1;
+  color: #D93A28;
 }
 
 .nav__item {
@@ -30,8 +34,11 @@ body {
 
 .projects__container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projects__project {
-  width: 50%;
+  margin: 0 2.5%;
+  border: 1px solid #ccc;
 }
