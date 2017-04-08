@@ -20,7 +20,12 @@ body {
   height: calc(100vh - 2rem);
 }
 
-.header__hero h2,
+.hero__title,
+.hero__subtitle {
+  display: none;
+}
+
+.hero__subtitle,
 .nav {
   font-family: 'Bungee Hairline', cursive;
 }

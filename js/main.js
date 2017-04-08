@@ -1,4 +1,4 @@
-console.log("working");
-$(document).click(function() {
-	console.log("you clicked!");
+$(document).ready(function() {
+	$('.hero__title').slideDown(1000);
+	$('.hero__subtitle').fadeIn(1500);
 });
