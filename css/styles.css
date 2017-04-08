@@ -11,15 +11,43 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.hero--home {
+  align-items: center;
   background-color: #D93A28;
   color: #F4F0F1;
 }
 
+.hero--about {
+  height: calc(100vh - 2rem);
+}
+
 .header__hero h2,
 .nav {
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+
+.hero__img {
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.hero__stats {
+  text-align: left;
+}
+
+.hero__statsItem {
+  margin: 0.5rem 0;
+  list-style-type: none;
+}
+
+.hero__statsItemLabel {
   font-family: 'Bungee Hairline', cursive;
 }
 
