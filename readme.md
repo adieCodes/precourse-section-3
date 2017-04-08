@@ -7,7 +7,7 @@ You should also show your ability to set up a project from scratch, linking the 
 4. Remember to add and commit your changes frequently as you work.
 5. When you are done, upload your work to GitHub pages (see the below video)
 
-# REQUIREMENTS
+## REQUIREMENTS
 
 - Include more than 1 page
 - Use a navigation bar or sidebar to move between pages
