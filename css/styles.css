@@ -13,7 +13,7 @@ body {
   justify-content: center;
 }
 
-.hero__home {
+.hero--home {
   background-color: #D93A28;
   color: #F4F0F1;
 }
