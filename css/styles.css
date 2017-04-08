@@ -22,14 +22,25 @@ body {
 
 .nav {
   margin: 0;
+  padding: 0.5rem 1rem;
   text-align: left;
   justify-content: flex-start;
   background-color: #F4F0F1;
-  color: #D93A28;
 }
 
 .nav__item {
   display: inline;
+  margin: 0 0.5rem;
+}
+
+.nav__link {
+  color: #D93A28;
+  text-decoration: none;
+}
+
+.nav__link--active {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .projects__container {
