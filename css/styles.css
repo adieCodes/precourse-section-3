@@ -31,16 +31,22 @@ body {
 }
 
 .round {
+  border: 0.25rem solid white;
   border-radius: 50%;
   overflow: hidden;
   width: 150px;
   height: 150px;
+  display: none;
 }
 
 .hero__img {
   display: block;
   min-height: 100%;
   min-width: 100%;
+}
+
+.hero__subsection {
+  display: none;
 }
 
 .hero__stats {
