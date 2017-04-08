@@ -6,11 +6,14 @@ body {
   font-family: 'Bungee', cursive;
 }
 
-.header__hero {
+.hero {
   height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.hero__home {
   background-color: #D93A28;
   color: #F4F0F1;
 }
